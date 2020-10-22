@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        hello smartlink
+    </div>
+    <button id='post'>点击请求graphql</button>
+    <div id='result'></div>
+</body>
+<script type="module">
+
+    import http from './../fetch.js'
+    function request() {
+        // http.post('/graphql2')
+        //     .then((re) => {
+        //         document.querySelector('#result').innerText = re;
+        //     })
+        //     .catch(err => console.log(err))
+
+        var dice = 3;
+        var sides = 6;
+        var query = `query RollDice($dice: Int!, $sides: Int) {
+  rollDice(numDice: $dice, numSides: $sides)
+}`;
+
+        fetch('/graphql', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json',
+            },
+            body: JSON.stringify({
+                query,
+                variables: { dice, sides },
+            })
+        })
+            .then(r => r.json())
+            .then(data => console.log('data returned:', data));
+    }
+    window.onload = function () {
+        // init();
+        const btn = document.querySelector('#post');
+        btn.onclick = function () {
+            request();
+        }
+
+    }
+
+</script>
+<style type="text/css">
+    body {
+        color: #330000;
+        padding: 20px;
+    }
+
+    div {
+        padding-bottom: 10px;
+    }
+
+    #result {
+        margin: 20px 0;
+        padding: 20px;
+        min-height: 200px;
+        background: #ffe5e5;
+        color: #fff;
+    }
+</style>
+
+
+</html>
