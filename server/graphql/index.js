@@ -1,37 +1,15 @@
 var express = require('express');
+var { graphqlHTTP } = require('express-graphql')
+let { helloschema, helloroot } = require('./hello.js')
+// import { helloschema, helloroot } from './hello.js'
 const app = express();
-
-var { graphqlHTTP } = require('express-graphql');
-var { buildSchema } = require('graphql');
-require('./test.graphql')
-
-// 使用 GraphQL Schema Language 创建一个 schema
-var schema = buildSchema(`
-  type Query {
-    hello: String
-  }
-`);
-
-
-
-// root 提供所有 API 入口端点相应的解析器函数
-var root = {
-    hello: () => {
-        return 'Hello world!';
-    },
-};
-
-
 app.use('/graphql', graphqlHTTP({
-    schema: schema,
-    rootValue: root,
-    graphiql: true,
+  schema: helloschema,
+  rootValue: helloroot,
+  graphiql: true,
 }));
 
 /* */
-
-
-
 
 
 module.exports = app
