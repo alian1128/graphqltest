@@ -9,6 +9,7 @@ service.interceptors.request.use(config => {
     config.headers['Auth-Token'] = global.Token;
     console.log('当前请求的url',config.url)
     log.info('当前请求的url',config.url)
+    
     return config
 }, error => {
     console.log('error:', error) // for debug

@@ -6,10 +6,14 @@ var logger = require('morgan');
 var ejs = require('ejs');
 const routes = require('./server/routes/router.js');
 const config = require('./config.js')
-const gra = require('./server/graphql/index.js')
+const graph = require('./server/graphql/index.js')
 const interceptor = require('./server/interceptor.js')
-const app = express();
+const log = require('./logs/log.js')
 
+
+global.log = log //log 对象绑定给global，方便引用
+
+const app = express();
 
 
 app.engine('.html', ejs.__express);
@@ -39,7 +43,7 @@ app.use(interceptor, function (req, res, next) {
 })
 
 app.use('/', routes);
-app.use(gra)
+app.use(graph)
 
 
 // catch 404 and forward to error handler

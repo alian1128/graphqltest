@@ -1,0 +1,1801 @@
+[2020-10-27T15:42:54.769] [INFO] middleware - *********请求**********
+[2020-10-27T15:42:54.770] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:42:54.770] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:42:54.770] [INFO] middleware - origina_url /graphql
+[2020-10-27T15:42:54.771] [INFO] middleware - req.query {}
+[2020-10-27T15:42:57.458] [INFO] middleware - *********请求**********
+[2020-10-27T15:42:57.458] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:42:57.458] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:42:57.458] [INFO] middleware - origina_url /
+[2020-10-27T15:42:57.458] [INFO] middleware - req.query {}
+[2020-10-27T15:43:01.608] [INFO] middleware - *********请求**********
+[2020-10-27T15:43:01.608] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:43:01.608] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:43:01.608] [INFO] middleware - origina_url /graphql
+[2020-10-27T15:43:01.608] [INFO] middleware - req.query {}
+[2020-10-27T15:43:05.234] [INFO] middleware - *********请求**********
+[2020-10-27T15:43:05.234] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:43:05.234] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:43:05.234] [INFO] middleware - origina_url /graphql2
+[2020-10-27T15:43:05.234] [INFO] middleware - req.query {}
+[2020-10-27T15:43:13.485] [INFO] middleware - *********请求**********
+[2020-10-27T15:43:13.485] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:43:13.485] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:43:13.485] [INFO] middleware - origina_url /graphqltest
+[2020-10-27T15:43:13.485] [INFO] middleware - req.query {}
+[2020-10-27T15:44:25.041] [INFO] middleware - *********请求**********
+[2020-10-27T15:44:25.042] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:44:25.042] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:44:25.042] [INFO] middleware - origina_url /graphql
+[2020-10-27T15:44:25.042] [INFO] middleware - req.query {}
+[2020-10-27T15:45:40.185] [INFO] middleware - *********请求**********
+[2020-10-27T15:45:40.188] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:45:40.188] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:45:40.189] [INFO] middleware - origina_url /graphql
+[2020-10-27T15:45:40.190] [INFO] middleware - req.query {}
+[2020-10-27T15:45:40.503] [INFO] middleware - *********请求**********
+[2020-10-27T15:45:40.503] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:45:40.503] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:45:40.504] [INFO] middleware - origina_url /graphql?
+[2020-10-27T15:45:40.504] [INFO] middleware - req.query {}
+[2020-10-27T15:46:10.466] [INFO] middleware - *********请求**********
+[2020-10-27T15:46:10.466] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:46:10.466] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:46:10.466] [INFO] middleware - origina_url /graphql
+[2020-10-27T15:46:10.466] [INFO] middleware - req.query {}
+[2020-10-27T15:46:10.568] [INFO] middleware - *********请求**********
+[2020-10-27T15:46:10.568] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:46:10.568] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:46:10.568] [INFO] middleware - origina_url /graphql?
+[2020-10-27T15:46:10.568] [INFO] middleware - req.query {}
+[2020-10-27T15:46:13.746] [INFO] middleware - *********请求**********
+[2020-10-27T15:46:13.746] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:46:13.746] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:46:13.746] [INFO] middleware - origina_url /graphql?
+[2020-10-27T15:46:13.747] [INFO] middleware - req.query {}
+[2020-10-27T15:46:51.995] [INFO] middleware - *********请求**********
+[2020-10-27T15:46:51.995] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:46:51.995] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:46:51.995] [INFO] middleware - origina_url /graphql?
+[2020-10-27T15:46:51.995] [INFO] middleware - req.query {}
+[2020-10-27T15:47:01.586] [INFO] middleware - *********请求**********
+[2020-10-27T15:47:01.586] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:47:01.586] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:47:01.586] [INFO] middleware - origina_url /graphql2?query=%23%20Welcome%20to%20GraphiQL%0A%23%0A%23%20GraphiQL%20is%20an%20in-browser%20tool%20for%20writing%2C%20validating%2C%20and%0A%23%20testing%20GraphQL%20queries.%0A%23%0A%23%20Type%20queries%20into%20this%20side%20of%20the%20screen%2C%20and%20you%20will%20see%20intelligent%0A%23%20typeaheads%20aware%20of%20the%20current%20GraphQL%20type%20schema%20and%20live%20syntax%20and%0A%23%20validation%20errors%20highlighted%20within%20the%20text.%0A%23%0A%23%20GraphQL%20queries%20typically%20start%20with%20a%20%22%7B%22%20character.%20Lines%20that%20start%0A%23%20with%20a%20%23%20are%20ignored.%0A%23%0A%23%20An%20example%20GraphQL%20query%20might%20look%20like%3A%0A%23%0A%23%20%20%20%20%20%7B%0A%23%20%20%20%20%20%20%20field(arg%3A%20%22value%22)%20%7B%0A%23%20%20%20%20%20%20%20%20%20subField%0A%23%20%20%20%20%20%20%20%7D%0A%23%20%20%20%20%20%7D%0A%23%0A%23%20Keyboard%20shortcuts%3A%0A%23%0A%23%20%20Prettify%20Query%3A%20%20Shift-Ctrl-P%20(or%20press%20the%20prettify%20button%20above)%0A%23%0A%23%20%20%20%20%20Merge%20Query%3A%20%20Shift-Ctrl-M%20(or%20press%20the%20merge%20button%20above)%0A%23%0A%23%20%20%20%20%20%20%20Run%20Query%3A%20%20Ctrl-Enter%20(or%20press%20the%20play%20button%20above)%0A%23%0A%23%20%20%20Auto%20Complete%3A%20%20Ctrl-Space%20(or%20just%20start%20typing)%0A%23%0A%0A%7B%0A%20%20hello%0A%7D
+[2020-10-27T15:47:01.586] [INFO] middleware - req.query {
+  query: '# Welcome to GraphiQL\n' +
+    '#\n' +
+    '# GraphiQL is an in-browser tool for writing, validating, and\n' +
+    '# testing GraphQL queries.\n' +
+    '#\n' +
+    '# Type queries into this side of the screen, and you will see intelligent\n' +
+    '# typeaheads aware of the current GraphQL type schema and live syntax and\n' +
+    '# validation errors highlighted within the text.\n' +
+    '#\n' +
+    '# GraphQL queries typically start with a "{" character. Lines that start\n' +
+    '# with a # are ignored.\n' +
+    '#\n' +
+    '# An example GraphQL query might look like:\n' +
+    '#\n' +
+    '#     {\n' +
+    '#       field(arg: "value") {\n' +
+    '#         subField\n' +
+    '#       }\n' +
+    '#     }\n' +
+    '#\n' +
+    '# Keyboard shortcuts:\n' +
+    '#\n' +
+    '#  Prettify Query:  Shift-Ctrl-P (or press the prettify button above)\n' +
+    '#\n' +
+    '#     Merge Query:  Shift-Ctrl-M (or press the merge button above)\n' +
+    '#\n' +
+    '#       Run Query:  Ctrl-Enter (or press the play button above)\n' +
+    '#\n' +
+    '#   Auto Complete:  Ctrl-Space (or just start typing)\n' +
+    '#\n' +
+    '\n' +
+    '{\n' +
+    '  hello\n' +
+    '}'
+}
+[2020-10-27T15:47:01.799] [INFO] middleware - *********请求**********
+[2020-10-27T15:47:01.799] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:47:01.799] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:47:01.799] [INFO] middleware - origina_url /graphql2?
+[2020-10-27T15:47:01.799] [INFO] middleware - req.query {}
+[2020-10-27T15:47:07.638] [INFO] middleware - *********请求**********
+[2020-10-27T15:47:07.638] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:47:07.638] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:47:07.639] [INFO] middleware - origina_url /graphql2
+[2020-10-27T15:47:07.639] [INFO] middleware - req.query {}
+[2020-10-27T15:47:07.812] [INFO] middleware - *********请求**********
+[2020-10-27T15:47:07.812] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:47:07.812] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:47:07.812] [INFO] middleware - origina_url /graphql2?
+[2020-10-27T15:47:07.812] [INFO] middleware - req.query {}
+[2020-10-27T15:48:25.693] [INFO] middleware - *********请求**********
+[2020-10-27T15:48:25.695] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:48:25.695] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:48:25.696] [INFO] middleware - origina_url /graphql2
+[2020-10-27T15:48:25.696] [INFO] middleware - req.query {}
+[2020-10-27T15:48:25.896] [INFO] middleware - *********请求**********
+[2020-10-27T15:48:25.896] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:48:25.896] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:48:25.896] [INFO] middleware - origina_url /graphql2?
+[2020-10-27T15:48:25.896] [INFO] middleware - req.query {}
+[2020-10-27T15:48:51.920] [INFO] middleware - *********请求**********
+[2020-10-27T15:48:51.921] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:48:51.921] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:48:51.921] [INFO] middleware - origina_url /graphql2?
+[2020-10-27T15:48:51.921] [INFO] middleware - req.query {}
+[2020-10-27T15:49:05.540] [INFO] middleware - *********请求**********
+[2020-10-27T15:49:05.540] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:49:05.540] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:49:05.540] [INFO] middleware - origina_url /graphql2?
+[2020-10-27T15:49:05.540] [INFO] middleware - req.query {}
+[2020-10-27T15:49:11.657] [INFO] middleware - *********请求**********
+[2020-10-27T15:49:11.657] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:49:11.657] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:49:11.657] [INFO] middleware - origina_url /graphql2?
+[2020-10-27T15:49:11.657] [INFO] middleware - req.query {}
+[2020-10-27T15:49:29.243] [INFO] middleware - *********请求**********
+[2020-10-27T15:49:29.243] [INFO] middleware - Authorization: undefined
+[2020-10-27T15:49:29.243] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T15:49:29.244] [INFO] middleware - origina_url /graphql2?
+[2020-10-27T15:49:29.244] [INFO] middleware - req.query {}
+[2020-10-27T16:02:02.634] [INFO] middleware - *********请求**********
+[2020-10-27T16:02:02.634] [INFO] middleware - Authorization: undefined
+[2020-10-27T16:02:02.634] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T16:02:02.635] [INFO] middleware - origina_url /graphql2?
+[2020-10-27T16:02:02.635] [INFO] middleware - req.query {}
+[2020-10-27T16:13:03.235] [INFO] middleware - *********请求**********
+[2020-10-27T16:13:03.235] [INFO] middleware - Authorization: undefined
+[2020-10-27T16:13:03.235] [INFO] middleware - Auth-Token: undefined
+[2020-10-27T16:13:03.235] [INFO] middleware - origina_url /graphql2?
+[2020-10-27T16:13:03.235] [INFO] middleware - req.query {}
+[2020-10-27T16:27:04.533] [INFO] middleware - *********请求开始**********
+[2020-10-27T16:27:04.538] [INFO] middleware - Authorization: undefined
+[2020-10-27T16:27:04.538] [INFO] middleware - Auth-Token: 501c8f57ceca4ce284bacdd29d073208
+[2020-10-27T16:27:04.538] [INFO] middleware - origina_url /team/getListNew
+[2020-10-27T16:27:04.539] [INFO] middleware - req.query {}
+[2020-10-27T16:27:04.539] [INFO] middleware - token: 501c8f57ceca4ce284bacdd29d073208
+[2020-10-27T16:27:04.541] [INFO] middleware - 当前请求的url http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor
+[2020-10-27T16:29:40.095] [INFO] middleware - *********请求开始**********
+[2020-10-27T16:29:40.095] [INFO] middleware - Authorization: undefined
+[2020-10-27T16:29:40.095] [INFO] middleware - Auth-Token: 501c8f57ceca4ce284bacdd29d073208
+[2020-10-27T16:29:40.095] [INFO] middleware - origina_url /team/getListNew?token=11
+[2020-10-27T16:29:40.095] [INFO] middleware - req.query { token: '11' }
+[2020-10-27T16:29:40.095] [INFO] middleware - token: 11
+[2020-10-27T16:29:40.095] [INFO] middleware - 当前请求的url http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor
+[2020-10-27T16:31:57.001] [INFO] middleware - *********请求开始**********
+[2020-10-27T16:31:57.002] [INFO] middleware - Authorization: undefined
+[2020-10-27T16:31:57.002] [INFO] middleware - Auth-Token: 501c8f57ceca4ce284bacdd29d073208
+[2020-10-27T16:31:57.002] [INFO] middleware - origina_url /team/getListNew?token=11
+[2020-10-27T16:31:57.002] [INFO] middleware - req.query { token: '11' }
+[2020-10-27T16:31:57.003] [INFO] middleware - token: 11
+[2020-10-27T16:31:57.006] [INFO] middleware - 当前请求的url http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor
+[2020-10-27T16:32:42.698] [INFO] middleware - *********请求开始**********
+[2020-10-27T16:32:42.700] [INFO] middleware - Authorization: undefined
+[2020-10-27T16:32:42.700] [INFO] middleware - Auth-Token: 501c8f57ceca4ce284bacdd29d073208
+[2020-10-27T16:32:42.700] [INFO] middleware - origina_url /team/getListNew?token=11
+[2020-10-27T16:32:42.700] [INFO] middleware - req.query { token: '11' }
+[2020-10-27T16:32:42.700] [INFO] middleware - token: 11
+[2020-10-27T16:32:42.702] [INFO] middleware - 当前请求的url http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor
+[2020-10-27T16:32:42.755] [ERROR] middleware - getListNew err Error: Request failed with status code 401
+    at createError (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/adapters/http.js:244:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1223:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  config: {
+    url: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Auth-Token': '11',
+      'User-Agent': 'axios/0.21.0'
+    },
+    baseURL: '',
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 30000,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    data: undefined
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      connect: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'sy.smartlink-tech.com.cn',
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(asyncId)]: 28,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    connection: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'sy.smartlink-tech.com.cn',
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(asyncId)]: 28,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /smartteam/test/risk/monitor HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Auth-Token: 11\r\n' +
+      'User-Agent: axios/0.21.0\r\n' +
+      'Host: sy.smartlink-tech.com.cn:81\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    insecureHTTPParser: undefined,
+    path: '/smartteam/test/risk/monitor',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [Socket],
+      connection: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 401,
+      statusMessage: '',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      redirects: [],
+      [Symbol(kCapture)]: false
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'sy.smartlink-tech.com.cn',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      _timeout: Timeout {
+        _idleTimeout: -1,
+        _idlePrev: null,
+        _idleNext: null,
+        _idleStart: 3719,
+        _onTimeout: null,
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: true,
+        [Symbol(refed)]: true,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 34,
+        [Symbol(triggerId)]: 31
+      },
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'auth-token': [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 401,
+    statusText: '',
+    headers: {
+      server: 'nginx/1.10.1',
+      date: 'Tue, 27 Oct 2020 08:28:29 GMT',
+      'content-length': '0',
+      connection: 'close',
+      'access-control-allow-origin': '*',
+      'access-control-allow-credentials': 'true',
+      'access-control-allow-methods': 'POST, GET, PATCH, DELETE, PUT',
+      'access-control-max-age': '3600',
+      'access-control-allow-headers': 'Origin, X-Requested-With, Content-Type, Accept, Auth-Token'
+    },
+    config: {
+      url: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      method: 'get',
+      headers: [Object],
+      baseURL: '',
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 30000,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [Socket],
+      connection: [Socket],
+      _header: 'GET /smartteam/test/risk/monitor HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Auth-Token: 11\r\n' +
+        'User-Agent: axios/0.21.0\r\n' +
+        'Host: sy.smartlink-tech.com.cn:81\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/smartteam/test/risk/monitor',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'sy.smartlink-tech.com.cn',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: ''
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+[2020-10-27T16:33:12.014] [INFO] middleware - *********请求开始**********
+[2020-10-27T16:33:12.015] [INFO] middleware - Authorization: undefined
+[2020-10-27T16:33:12.015] [INFO] middleware - Auth-Token: 501c8f57ceca4ce284bacdd29d073208
+[2020-10-27T16:33:12.015] [INFO] middleware - origina_url /team/getListNew?token=11
+[2020-10-27T16:33:12.016] [INFO] middleware - req.query { token: '11' }
+[2020-10-27T16:33:12.016] [INFO] middleware - token: 11
+[2020-10-27T16:33:12.017] [INFO] middleware - 当前请求的url http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor
+[2020-10-27T16:33:12.084] [ERROR] middleware - getListNew err Error: Request failed with status code 401
+    at createError (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/adapters/http.js:244:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1223:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  config: {
+    url: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Auth-Token': '11',
+      'User-Agent': 'axios/0.21.0'
+    },
+    baseURL: '',
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 30000,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    data: undefined
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      connect: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'sy.smartlink-tech.com.cn',
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(asyncId)]: 28,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    connection: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'sy.smartlink-tech.com.cn',
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(asyncId)]: 28,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /smartteam/test/risk/monitor HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Auth-Token: 11\r\n' +
+      'User-Agent: axios/0.21.0\r\n' +
+      'Host: sy.smartlink-tech.com.cn:81\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    insecureHTTPParser: undefined,
+    path: '/smartteam/test/risk/monitor',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [Socket],
+      connection: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 401,
+      statusMessage: '',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      redirects: [],
+      [Symbol(kCapture)]: false
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'sy.smartlink-tech.com.cn',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      _timeout: Timeout {
+        _idleTimeout: -1,
+        _idlePrev: null,
+        _idleNext: null,
+        _idleStart: 8971,
+        _onTimeout: null,
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: true,
+        [Symbol(refed)]: true,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 34,
+        [Symbol(triggerId)]: 31
+      },
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'auth-token': [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 401,
+    statusText: '',
+    headers: {
+      server: 'nginx/1.10.1',
+      date: 'Tue, 27 Oct 2020 08:28:58 GMT',
+      'content-length': '0',
+      connection: 'close',
+      'access-control-allow-origin': '*',
+      'access-control-allow-credentials': 'true',
+      'access-control-allow-methods': 'POST, GET, PATCH, DELETE, PUT',
+      'access-control-max-age': '3600',
+      'access-control-allow-headers': 'Origin, X-Requested-With, Content-Type, Accept, Auth-Token'
+    },
+    config: {
+      url: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      method: 'get',
+      headers: [Object],
+      baseURL: '',
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 30000,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [Socket],
+      connection: [Socket],
+      _header: 'GET /smartteam/test/risk/monitor HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Auth-Token: 11\r\n' +
+        'User-Agent: axios/0.21.0\r\n' +
+        'Host: sy.smartlink-tech.com.cn:81\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/smartteam/test/risk/monitor',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'sy.smartlink-tech.com.cn',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: ''
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+[2020-10-27T16:34:28.370] [INFO] middleware - *********请求开始**********
+[2020-10-27T16:34:28.371] [INFO] middleware - Authorization: undefined
+[2020-10-27T16:34:28.371] [INFO] middleware - Auth-Token: 501c8f57ceca4ce284bacdd29d073208
+[2020-10-27T16:34:28.371] [INFO] middleware - origina_url /team/getListNew?token=11
+[2020-10-27T16:34:28.371] [INFO] middleware - req.query { token: '11' }
+[2020-10-27T16:34:28.372] [INFO] middleware - token: 11
+[2020-10-27T16:34:28.381] [INFO] middleware - 当前请求的url http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor
+[2020-10-27T16:34:28.420] [ERROR] middleware - getListNew err Error: Request failed with status code 401
+    at createError (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/adapters/http.js:244:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1223:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  config: {
+    url: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Auth-Token': '11',
+      'User-Agent': 'axios/0.21.0'
+    },
+    baseURL: '',
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 30000,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    data: undefined
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      connect: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'sy.smartlink-tech.com.cn',
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(asyncId)]: 28,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    connection: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'sy.smartlink-tech.com.cn',
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(asyncId)]: 28,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /smartteam/test/risk/monitor HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Auth-Token: 11\r\n' +
+      'User-Agent: axios/0.21.0\r\n' +
+      'Host: sy.smartlink-tech.com.cn:81\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    insecureHTTPParser: undefined,
+    path: '/smartteam/test/risk/monitor',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [Socket],
+      connection: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 401,
+      statusMessage: '',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      redirects: [],
+      [Symbol(kCapture)]: false
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'sy.smartlink-tech.com.cn',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      _timeout: Timeout {
+        _idleTimeout: -1,
+        _idlePrev: null,
+        _idleNext: null,
+        _idleStart: 3668,
+        _onTimeout: null,
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: true,
+        [Symbol(refed)]: true,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 34,
+        [Symbol(triggerId)]: 31
+      },
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'auth-token': [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 401,
+    statusText: '',
+    headers: {
+      server: 'nginx/1.10.1',
+      date: 'Tue, 27 Oct 2020 08:30:14 GMT',
+      'content-length': '0',
+      connection: 'close',
+      'access-control-allow-origin': '*',
+      'access-control-allow-credentials': 'true',
+      'access-control-allow-methods': 'POST, GET, PATCH, DELETE, PUT',
+      'access-control-max-age': '3600',
+      'access-control-allow-headers': 'Origin, X-Requested-With, Content-Type, Accept, Auth-Token'
+    },
+    config: {
+      url: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      method: 'get',
+      headers: [Object],
+      baseURL: '',
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 30000,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [Socket],
+      connection: [Socket],
+      _header: 'GET /smartteam/test/risk/monitor HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Auth-Token: 11\r\n' +
+        'User-Agent: axios/0.21.0\r\n' +
+        'Host: sy.smartlink-tech.com.cn:81\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/smartteam/test/risk/monitor',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'sy.smartlink-tech.com.cn',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: ''
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+[2020-10-27T16:34:40.672] [INFO] middleware - *********请求开始**********
+[2020-10-27T16:34:40.676] [INFO] middleware - Authorization: undefined
+[2020-10-27T16:34:40.676] [INFO] middleware - Auth-Token: 501c8f57ceca4ce284bacdd29d073208
+[2020-10-27T16:34:40.676] [INFO] middleware - origina_url /team/getListNew?token=11
+[2020-10-27T16:34:40.676] [INFO] middleware - req.query { token: '11' }
+[2020-10-27T16:34:40.676] [INFO] middleware - token: 11
+[2020-10-27T16:34:40.690] [INFO] middleware - 当前请求的url http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor
+[2020-10-27T16:34:40.797] [ERROR] middleware - getListNew err Error: Request failed with status code 401
+    at createError (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/adapters/http.js:244:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1223:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  config: {
+    url: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Auth-Token': '11',
+      'User-Agent': 'axios/0.21.0'
+    },
+    baseURL: '',
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 30000,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    data: undefined
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      connect: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'sy.smartlink-tech.com.cn',
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(asyncId)]: 28,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    connection: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'sy.smartlink-tech.com.cn',
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(asyncId)]: 28,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /smartteam/test/risk/monitor HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Auth-Token: 11\r\n' +
+      'User-Agent: axios/0.21.0\r\n' +
+      'Host: sy.smartlink-tech.com.cn:81\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    insecureHTTPParser: undefined,
+    path: '/smartteam/test/risk/monitor',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [Socket],
+      connection: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 401,
+      statusMessage: '',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      redirects: [],
+      [Symbol(kCapture)]: false
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'sy.smartlink-tech.com.cn',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      _timeout: Timeout {
+        _idleTimeout: -1,
+        _idlePrev: null,
+        _idleNext: null,
+        _idleStart: 3412,
+        _onTimeout: null,
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: true,
+        [Symbol(refed)]: true,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 34,
+        [Symbol(triggerId)]: 31
+      },
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'auth-token': [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 401,
+    statusText: '',
+    headers: {
+      server: 'nginx/1.10.1',
+      date: 'Tue, 27 Oct 2020 08:30:27 GMT',
+      'content-length': '0',
+      connection: 'close',
+      'access-control-allow-origin': '*',
+      'access-control-allow-credentials': 'true',
+      'access-control-allow-methods': 'POST, GET, PATCH, DELETE, PUT',
+      'access-control-max-age': '3600',
+      'access-control-allow-headers': 'Origin, X-Requested-With, Content-Type, Accept, Auth-Token'
+    },
+    config: {
+      url: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      method: 'get',
+      headers: [Object],
+      baseURL: '',
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 30000,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [Socket],
+      connection: [Socket],
+      _header: 'GET /smartteam/test/risk/monitor HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Auth-Token: 11\r\n' +
+        'User-Agent: axios/0.21.0\r\n' +
+        'Host: sy.smartlink-tech.com.cn:81\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/smartteam/test/risk/monitor',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'sy.smartlink-tech.com.cn',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: ''
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+[2020-10-27T16:36:23.848] [INFO] middleware - *********请求开始**********
+[2020-10-27T16:36:23.849] [INFO] middleware - Authorization: undefined
+[2020-10-27T16:36:23.849] [INFO] middleware - Auth-Token: 501c8f57ceca4ce284bacdd29d073208
+[2020-10-27T16:36:23.849] [INFO] middleware - origina_url /team/getListNew?token=11
+[2020-10-27T16:36:23.849] [INFO] middleware - req.query { token: '11' }
+[2020-10-27T16:36:23.850] [INFO] middleware - token: 11
+[2020-10-27T16:36:23.851] [INFO] middleware - 当前请求的url http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor
+[2020-10-27T16:36:23.906] [ERROR] middleware - getListNew err Error: Request failed with status code 401
+    at createError (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/lianxue/commons/project/yk/test/graphqltest/node_modules/axios/lib/adapters/http.js:244:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1223:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  config: {
+    url: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'Auth-Token': '11',
+      'User-Agent': 'axios/0.21.0'
+    },
+    baseURL: '',
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 30000,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    data: undefined
+  },
+  request: ClientRequest {
+    _events: [Object: null prototype] {
+      socket: [Function],
+      abort: [Function],
+      aborted: [Function],
+      connect: [Function],
+      error: [Function],
+      timeout: [Function],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'sy.smartlink-tech.com.cn',
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(asyncId)]: 28,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    connection: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'sy.smartlink-tech.com.cn',
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: false,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      parser: null,
+      _httpMessage: [Circular],
+      [Symbol(asyncId)]: 28,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _header: 'GET /smartteam/test/risk/monitor HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Auth-Token: 11\r\n' +
+      'User-Agent: axios/0.21.0\r\n' +
+      'Host: sy.smartlink-tech.com.cn:81\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: noopPendingOutput],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    insecureHTTPParser: undefined,
+    path: '/smartteam/test/risk/monitor',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [Socket],
+      connection: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 401,
+      statusMessage: '',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular],
+      responseUrl: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      redirects: [],
+      [Symbol(kCapture)]: false
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'sy.smartlink-tech.com.cn',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      writable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function],
+      _currentRequest: [Circular],
+      _currentUrl: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      _timeout: Timeout {
+        _idleTimeout: -1,
+        _idlePrev: null,
+        _idleNext: null,
+        _idleStart: 19835,
+        _onTimeout: null,
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: true,
+        [Symbol(refed)]: true,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 34,
+        [Symbol(triggerId)]: 31
+      },
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'auth-token': [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 401,
+    statusText: '',
+    headers: {
+      server: 'nginx/1.10.1',
+      date: 'Tue, 27 Oct 2020 08:32:10 GMT',
+      'content-length': '0',
+      connection: 'close',
+      'access-control-allow-origin': '*',
+      'access-control-allow-credentials': 'true',
+      'access-control-allow-methods': 'POST, GET, PATCH, DELETE, PUT',
+      'access-control-max-age': '3600',
+      'access-control-allow-headers': 'Origin, X-Requested-With, Content-Type, Accept, Auth-Token'
+    },
+    config: {
+      url: 'http://sy.smartlink-tech.com.cn:81/smartteam/test/risk/monitor',
+      method: 'get',
+      headers: [Object],
+      baseURL: '',
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 30000,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      data: undefined
+    },
+    request: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [Socket],
+      connection: [Socket],
+      _header: 'GET /smartteam/test/risk/monitor HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Auth-Token: 11\r\n' +
+        'User-Agent: axios/0.21.0\r\n' +
+        'Host: sy.smartlink-tech.com.cn:81\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/smartteam/test/risk/monitor',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'sy.smartlink-tech.com.cn',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: ''
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}

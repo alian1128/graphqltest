@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-
+// const log = require('./../../../logs/log.js')
 const http = require('./../../http.js')
 
 router.get('/getListNew', function (req, res, next) {
@@ -8,9 +8,9 @@ router.get('/getListNew', function (req, res, next) {
         res.json(response.data)
     })
         .catch((error) => {
-            console.log('getListNew err', err)
-            log.error('getListNew err', err);
-            res.json({ error: err.code, message: error.message });
+            console.log('getListNew err', error)
+            log.error('getListNew err', error);
+            res.json({ error: error.code, message: error.message });
         });
 });
 
