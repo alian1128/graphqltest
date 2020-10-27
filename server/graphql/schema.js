@@ -1,5 +1,8 @@
 const { GraphQLObjectType, GraphQLInt, GraphQLString, GraphQLBoolean, GraphQLList, GraphQLSchema } = require('graphql');
-const fetch = require('./../fetch.js') 
+// const http = require('./../fetch.js')
+const fetch = require('node-fetch');
+const log = require('./../../logs/log.js')
+
 const LaunchType = new GraphQLObjectType({
   name: 'Launch',
   fields: () => ({
@@ -26,7 +29,13 @@ const RootQuery = new GraphQLObjectType({
     launches: {
       type: new GraphQLList(LaunchType),
       resolve(parent, args) {
-        return fetch.get('https://api.spacexdata.com/v3/launches').then(res => res.data);
+        return fetch('https://api.spacexdata.com/v3/launches')
+          .then(res => res.json())
+          .then(res => {
+            console.log(res);
+            log.info('graphql res',res)
+            res.data
+          })
       }
     }
   }

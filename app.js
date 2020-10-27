@@ -7,6 +7,7 @@ var ejs = require('ejs');
 const routes = require('./server/routes/router.js');
 const config = require('./config.js')
 const gra = require('./server/graphql/index.js')
+const interceptor = require('./server/interceptor.js')
 const app = express();
 
 
@@ -21,9 +22,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'static')));
 // app.use('/server',express.static(path.join(__dirname, 'server')));
-app.use('/', routes);
-app.use(gra)
-
 
 // 允许跨域访问
 app.all('*', function (req, res, next) {
@@ -34,6 +32,15 @@ app.all('*', function (req, res, next) {
   res.header("Content-Type", "application/json;charset=utf-8");
   next();
 });
+
+//请求拦截，log记录，并获取请求url和token
+app.use(interceptor, function (req, res, next) {
+  next();
+})
+
+app.use('/', routes);
+app.use(gra)
+
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
