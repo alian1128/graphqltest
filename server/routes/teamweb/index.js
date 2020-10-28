@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-// const log = require('./../../../logs/log.js')
+const log = require('./../../../logs/log.js')
 const http = require('./../../http.js')
 
 router.get('/getListNew', function (req, res, next) {

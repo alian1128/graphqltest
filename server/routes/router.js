@@ -4,11 +4,10 @@ const router = express.Router();
 
 //静态页面访问路由
 router.get('/', function (req, res, next) {
+  res.type('html');
   res.render('index');
 });
 
-
-router.get('/test', require('./test.js'));
 
 //车队web相关路由
 router.use('/team', require('./teamweb/index.js'))

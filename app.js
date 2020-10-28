@@ -7,11 +7,11 @@ var ejs = require('ejs');
 const routes = require('./server/routes/router.js');
 const config = require('./config.js')
 const graph = require('./server/graphql/index.js')
-const interceptor = require('./server/interceptor.js')
+// const interceptor = require('./server/interceptor.js')
 const log = require('./logs/log.js')
 
 
-global.log = log //log 对象绑定给global，方便引用
+// global.log = log //log 对象绑定给global，方便引用
 
 const app = express();
 
@@ -38,9 +38,9 @@ app.all('*', function (req, res, next) {
 });
 
 //请求拦截，log记录，并获取请求url和token
-app.use(interceptor, function (req, res, next) {
-  next();
-})
+// app.use(interceptor, function (req, res, next) {
+//   next();
+// })
 
 app.use('/', routes);
 app.use(graph)
