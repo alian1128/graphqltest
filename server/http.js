@@ -6,6 +6,8 @@ const service = axios.create({
 })
 
 service.interceptors.request.use(config => {
+    console.log('global.Token',global.Token);
+    console.log('config',config);
     config.headers['Auth-Token'] = global.Token;
     console.log('当前请求的url',config.url)
     log.info('当前请求的url',config.url)

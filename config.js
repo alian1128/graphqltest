@@ -8,15 +8,16 @@ switch (env) {
         config = {
             'API_URL': ''
         }
-    case 'prod':
+    case 'production':
         config = {
             'API_URL': ''
         }
-    case 'dev':
+    case 'uat':
         config = {
             'API_URL': ''
         }
     default:
+        //开发启动
         config = {
             'API_URL': ''
         }
