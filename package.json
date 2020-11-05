@@ -20,6 +20,7 @@
     "http-errors": "~1.6.3",
     "log4js": "^6.3.0",
     "morgan": "~1.9.1",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "qs": "^6.9.4"
   }
 }
