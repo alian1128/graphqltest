@@ -11,14 +11,13 @@ const interceptor = (req, res, next) => {
 
     try {
         //从header取token，或者从cookie取，或者从url取，针对不同业务，取url
-        console.log('token', req.headers['auth-token']);
         // if (req.query && req.query.token) {
         //     global.Token = req.query.token
         // }
         // else 
         // if (req.headers['auth-token']) {
             //车队token规则
-            global.Token = req.headers['auth-token']
+            // global.Token = req.headers['auth-token']
         // }
         // else if (req.cookies['vue_typescript_admin_access_token']) {
         //     //海外项目token规则
@@ -26,7 +25,7 @@ const interceptor = (req, res, next) => {
         // } else {
         //     global.Token = ""
         // }
-        log.info('token:',Token)
+        // log.info('token:',Token)
         next()
     }
     catch (err) {
