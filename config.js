@@ -1,34 +1,34 @@
-console.log(process.env)
-let env = process.env.NODE_ENV,
-    config = {};
-
-
+const log = require('./logs/log.js')
+let env = process.env.NODE_ENV;
+config = {};
 switch (env) {
     case 'test':
         config = {
             'API_URL': '',
-            'API_URL_TECHNOLOGY': 'http://172.29.30.123:18002/'
+            'API_URL_TECHNOLOGY': 'http://xxx/api/'
         }
+        break;
     case 'production':
         config = {
             'API_URL': '',
-            'API_URL_TECHNOLOGY': 'http://121.36.29.24/development/api/'
+            'API_URL_TECHNOLOGY': 'http://xxx/api/'
         }
+        break;
     case 'uat':
         config = {
             'API_URL': '',
-            'API_URL_TECHNOLOGY': 'http://121.36.29.24/development/api/'
+            'API_URL_TECHNOLOGY': 'http://xxx/api/'
         }
+        break;
     default:
-        //开发启动
         config = {
             'API_URL': '',
-            'API_URL_TECHNOLOGY': 'http://121.36.29.24/development/api/'
+            'API_URL_TECHNOLOGY': 'http://xxx/api/'
             // 'API_URL_TECHNOLOGY': 'http://172.29.30.123:18002/'
         }
-
+        break;
 }
 
-
+console.log("config",config)
 
 module.exports = config

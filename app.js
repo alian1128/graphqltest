@@ -6,7 +6,7 @@ var logger = require('morgan');
 var ejs = require('ejs');
 const routes = require('./server/routes/router.js');
 const graph = require('./server/graphql/index.js')
-const interceptor = require('./server/interceptor.js')
+const {interceptor} = require('./server/interceptor.js')
 const log = require('./logs/log.js')
 
 const app = express();

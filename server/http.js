@@ -8,12 +8,8 @@ const service = axios.create({
 
 service.interceptors.request.use(config => {
     log.info('当前请求的url', config.url)
-    log.info('当前请求的header:', config.headers)
+    log.info('当前请求的headers:', config.headers)
     log.info('当前请求的params:', config.params)
-
-    if (global.Token) {
-        config.headers['Auth-Token'] = global.Token
-    }
     // get 请求数组处理
     if (config.method === 'get') {
         config.paramsSerializer = function (params) {
